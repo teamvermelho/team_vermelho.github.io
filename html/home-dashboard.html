@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto+Slab:700|Roboto:400,400i"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../CSS/style.css" />
+        <title> Home -  Mobicare</title>
+    </head>
+
+    <body onload="load()">
+        <nav class="navegacao">
+            <div class="navegacao__box">
+                <a class="navegacao__logo" href="home.html">
+                    <img
+                        class="img-responsive"
+                        src="../imagens/logo-mobicare-akross.png"
+                        alt="Logotipo da Mobicare e Akross "
+                    />
+                </a>
+
+                <div class="navegacao__itens" >
+                    
+                </div>
+               
+            </div>
+        </nav>
+
+        <header class="header">
+            <div>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div id="projects_list" class="container-list">
+                    <div id="table_list_header"></div>
+                    <div>
+                        <input id="search-input" type="text" class="search-input" placeholder="Busca...">
+                    </div>
+                    <div id="table_list"></div>
+                </div>               
+            </section>
+            <!-- The Modal -->
+            <div id="modal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span id="close" class="close">&times;</span>
+                        <h2 id="modal_header"></h2>
+                    </div>
+                    <div id="project-content" class="modal-body">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="rodape">
+            <div class="rodape__principal"></div>
+                               
+            </div>
+            <div class="rodape__cc">
+                <p>DevSchool 2.0 | Grupo Vermelho | 2021</p>
+            </div>
+        </footer>
+
+        <script src="../script/projects.js"></script>
+    </body>
+</html>
